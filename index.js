@@ -19,6 +19,10 @@ app.use(function (err, req, res, next) {
     res.status(422).send({ error: err.message });
 });
 
+app.get('/*', (req, res) => {
+    res.sendFile('./index.html', { root: __dirname });
+});
+
 const port = process.env.port || 1800;
 app.listen(port, function () {
     console.log('Server Started at port: '+port);
