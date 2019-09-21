@@ -23,7 +23,7 @@ app.get('/*', (req, res) => {
     res.sendFile('./index.html', { root: __dirname });
 });
 
-const port = process.env.port || 1800;
+const port = process.env.port;
 app.listen(port, function () {
     console.log('Server Started at port: '+port);
 });
