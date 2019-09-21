@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+footer {background: rgba(0,0,0,.8); color: white; padding: 10px;}
+.FD-title {display: inline-block; border: 2px solid #F2731E; padding: 10px; font-weight: bold;  font-family: 'Lato', sans-serif;}
+.FD2-title {color: #F2731E; font-family: 'Roboto', sans-serif;}
+.foot-head {margin-top: 20px; font-family: 'Roboto', sans-serif; font-weight: bold;}
+.footer-hr {border-bottom:1px solid #F2731E; margin: 20px 20%;}
+.follow-icon {font-size: 36px; margin: 10px; cursor: pointer;}
+.fa-facebook:hover {color: #F2731E;}
+.fa-twitter-square:hover {color: #F2731E;}
+.fa-instagram:hover {color: #F2731E;}

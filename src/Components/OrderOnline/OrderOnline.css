@@ -1,0 +1,4 @@
+.holds {margin: 25px 0; background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 10px;}
+.box-head {display: inline-block; border: 1px solid #D85415; padding: 2px 10px;}
+.left-pane img {width: 300px; height: 250px;}
+.right-pane {display: grid; place-items: center;}

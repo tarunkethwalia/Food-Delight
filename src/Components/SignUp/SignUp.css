@@ -1,0 +1,5 @@
+.wrapper { padding: 0%; margin: 0%;}
+.holder { width: 100%; display: grid; place-items: center; margin: 20px 0;}
+.SignUpBack {background-color: rgba(0, 0, 0, 0.8); width: 60%; padding: 20px;}
+.forminput { margin: 5%;}
+.form-btn {display: flex; justify-content: center;}
