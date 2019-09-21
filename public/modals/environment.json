@@ -1,0 +1,5 @@
+{
+    "env": {
+        "MongoUrl": "mongodb+srv://fooddelight:fooddelight@fooddelight-evcdr.mongodb.net/test?retryWrites=true&w=majority"
+    }
+}
