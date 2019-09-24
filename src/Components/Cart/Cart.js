@@ -9,7 +9,9 @@ class Cart extends Component {
 
     componentDidMount(){
          this.props.info.map(item =>{
-             let crum = [...this.state.pros, item];
+            //  let crum = this.state.pros.push(this.props.info[item]);
+            let crum = [...this.state.pros, item];
+            //  console.log(crum);
             this.setState(() => {
                 return { pros: crum }
             });
@@ -37,7 +39,7 @@ class Cart extends Component {
         console.log(this.props);
         console.log(this.state);
         return(
-        this.state.pros.map(product=>{
+            this.state.pros.map(product=>{
                 return(
                     <div>
                         <div className="d-flex justify-content-around py-4" key={product.d}>
