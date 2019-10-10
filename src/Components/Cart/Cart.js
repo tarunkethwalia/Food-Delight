@@ -12,7 +12,7 @@ class Cart extends Component {
             //  let crum = this.state.pros.push(this.props.info[item]);
             let crum = [...this.state.pros, item];
             //  console.log(crum);
-            this.setState(() => {
+            return this.setState(() => {
                 return { pros: crum }
             });
         })

@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Navbar.css';
 import $ from 'jquery';
-import {Button,ButtonToolbar} from 'react-bootstrap';
 import Login from '../LogIn/Login';
 
 class Navbar extends Component {

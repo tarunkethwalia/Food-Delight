@@ -1,0 +1,13 @@
+.TableSection {display: grid; place-items: center;}
+.modal-tbody tr td {padding : 5px;}
+.modal-tbody tr .thead {padding-right: 30px; font-weight: bold;}
+.modal-tbody tr .radio-label:hover {cursor: pointer;}
+.modal-tbody tr .input-field {padding: 2px 4px;}
+Modal {background: rgba(0,0,0,.8);}
+.modal-head {background: rgba(0,0,0,.9); border: 1px solid rgba(0,0,0,.9);}
+.modal-body {border: 1px solid rgba(255,255,255,.9);}
+.modal-head .heading {color: #fff; display: block; border: 2px solid #F2731E; padding: 5px 10px;}
+.modal-footer {background: rgba(0,0,0,.9); border: 1px solid rgba(0,0,0,.9);}
+
+.modal-btn {display:block; margin-left:auto; border: none; margin-right:auto; background-color:#F2731E; border-radius:5px; width:12rem; height:3rem; color:white; cursor:pointer;  font-weight: bold; text-transform: uppercase;}
+.modal-btn:hover { display:block; margin-left:auto; margin-right:auto; background-color:rgb(245, 107, 14); border-radius:5px; width:12rem; height:3rem; color:white; cursor:pointer;}

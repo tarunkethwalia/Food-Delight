@@ -29,7 +29,7 @@ class Menu extends Component {
                                             </div>
                                             <p>{box.Desc}</p>
                                             <div className="box-btn">
-                                                <Link to={'/'+box.id}><button className="btn btn-secondary">Load Menu</button></Link>
+                                                <Link to={'/'+box.id}><button className="btn btn-outline-warning">LOAD MENU</button></Link>
                                             </div>
                                         </div>
                                     )
