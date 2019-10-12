@@ -27,7 +27,7 @@ export class OrderOnline extends Component {
             <div>
                 {
                     this.props.items.map((ite)=>{
-                    if(value === ite.id){
+                    if(value == ite.id){
                         return (
                     <div className="col-md-12 surrounder">
                         <div className="row">
